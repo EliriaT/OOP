@@ -2,7 +2,7 @@ package LAB3;
 
 public class Main {
     public static void main(String[] args) {
-        String text = "An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. It is called an iterator because iterating is the technical term for looping.";
+        String text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
         //Task1
         System.out.println("Number of sentences is: "+TextHelper.getNrOfSentences(text));
         System.out.println("Number of words is: "+TextHelper.getNrOfWords(text));

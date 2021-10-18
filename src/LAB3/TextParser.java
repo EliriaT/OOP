@@ -131,8 +131,9 @@ class TextHelper {
         int top=5;
         while (itr.hasNext()&&top>0) {
             Integer i = itr.next();
-            System.out.println(i + " " +reversedWordsRating.get(i).stream().limit(top).collect(Collectors.toList()));
-            top--;
+            List<String> firstNElementsList=reversedWordsRating.get(i).stream().limit(top).collect(Collectors.toList());
+            System.out.println(i + " " +firstNElementsList);
+            top=top-firstNElementsList.size();
         }
     }
 }
