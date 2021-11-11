@@ -18,5 +18,9 @@ public class Task {
 
         //TASK 2 and 3
         System.out.println(j);
+        String[] meaw= new String[5];
+        meaw[0]="d";
+
+
     }
 }
